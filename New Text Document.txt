@@ -1,0 +1,10 @@
+# Pyhton Code
+st = 'Print every word in this sentence that has an even number of letters'
+spilt_st= st.split()
+count =0
+print(spilt_st)
+for check_even in spilt_st:
+  if (len(check_even) % 2 ==0):
+    count+=1
+    print(check_even)
+print("There are "+str(count)+ " numnber of even string.")
